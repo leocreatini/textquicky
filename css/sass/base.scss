@@ -1,0 +1,183 @@
+//
+// Color Key
+//
+
+$white: #ecf0f1;
+$black: #000;
+$black-text: #212121;
+$gray: #9E9E9E;
+$gray-dark: #616161;
+$gray-light: #F5F5F5;
+$background: #34495e;
+$silver: #bdc3c7;
+$concrete: #95a5a6;
+$asbestos: #7f8c8d;
+$blue-light: #3498db;
+$blue: #2980b9;
+
+//
+// Variables
+//
+
+$center: 0 auto;
+
+//
+// Mixins
+//
+
+@mixin font ($size, $l-height, $weight: 500){
+	font:{
+		size: $size;
+		weight: $weight;	
+	}
+	line-height: $l-height;
+}
+
+//
+// Imports
+//
+
+@import 'reset';
+
+//
+//	Media Queries
+//
+
+@media screen and (max-width: 767px){
+	@import 'mobile';
+}
+
+@media screen and (min-width: 768px) and (max-width: 1025px){
+	@import 'tablet';
+}
+
+@media screen and (min-width: 1026px){
+	@import 'desktop';
+}
+
+//
+// Core
+//
+
+
+//
+//	 Typography
+//
+body {
+	font-family: 'Droid Sans', sans-serif;
+	color: $white;
+}
+
+p {
+	@include font(1em, 1.5625em);
+	max-width: 44em;
+}
+
+h1 {
+	@include font(4em, 1.25em);
+}
+
+h2 {
+	@include font(2.25em, 1.25em);
+}
+
+h3 {
+	@include font(1.125em, 1.25em, 700);
+}
+
+h4 {
+	@include font(.875em, 1em, 700);
+}
+
+header {
+	text-align: center;
+
+	h1 {
+		margin: 0 0 10px 0;
+		color: $white;
+	}
+
+	h3 {
+		font-weight: 500;
+		font-style: italic;
+		color: $concrete;
+	}
+}
+
+//
+//	  Layout
+//
+html {
+	width: 100%;
+	max-height: 800px;
+}
+
+body {
+	max-width: 960px;
+	margin: $center;
+	background: $background;
+}
+
+header {
+	margin: 20px 0 20px 0;
+
+}
+
+.row {
+	margin: 30px 0 0 0;
+}
+
+.row:last-of-type {
+	margin: 60px 0 0 0;
+}
+
+//
+//	  Components
+//
+#screenBox {
+	width: 400px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+#screen {
+	font: 2em 'Droid Sans Mono' normal;
+	padding: 13px 0 0 110px;
+}
+
+.fa {
+	font-size: 2em;
+}
+#speed {
+	margin: 0 0 0 2px;
+}
+
+.speed-component {
+
+	span {
+		text-align: center;
+	}
+}
+.speed-btn {
+	color: $white;
+	&:hover {
+		color: $asbestos;
+	}
+	&:active {
+		color: $concrete;
+	}
+}
+
+.button {
+	background: $blue;
+}
+
+.button-group {
+	margin: $center;
+	color: $white;
+}
+
+
+//
+//	  Functions
+//

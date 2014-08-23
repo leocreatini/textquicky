@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta -->
+		<meta charset="utf-8"></meta>
+		<meta content="no-cache" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<title>TextQuicky</title>
+		<!-- Style -->
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/foundation.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/base.css">
+		
+		 <!-- HTML5 Shim and Respond.js IE8 support ofHTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!-- [if lt IE 9[]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif] -->
+	</head>
+	<body id="index" class="home">
+		<div class="row">
+			<header>
+				<h1>TextQuicky</h1>
+				<h3>The quick-and-dirty speed reading app.<h3>
+			</header>
+		</div>
+		<div class="row">
+			<div class="small-4 small-centered columns">
+				<p id="exp" class="">Bear the bugs, enjoy the read.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-9 columns">
+				<input id="text" type="text" placeholder="Paste text using 'Ctrl+V'."></input>
+				<div class="block"></div>
+			</div>
+			<div class="small-3 columns speed-component">
+				<span id="speed" type="number" placeholder="Speed"></span>
+				<span>wpm</span>
+				<ul class="speed-control">
+					<li id="spdUp" class="speed-btn fa fa-chevron-up"></li>
+					<li id="spdDown" class="speed-btn fa fa-chevron-down"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-4 small-centered columns">
+				<div class="button-bar">
+					<ul class="button-group [5px radius round]">
+						<li> <a href="#" id="pause" class="pause fa fa-pause small button"></a></li>
+						<li> <a id="start" class="start fa fa-play small button"></a> </li>
+						<li> <a id="reset" class="reset fa fa-rotate-left small button"></a> </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-9 small-centered columns">
+				<p id="topArrow" class="small-1 small-centered columns">▼</p>
+				<div class="small-12 small-centered columns">
+					<div id="screenBox">
+						<div id="screen">
+							<p></p>
+						</div>
+					</div>
+				</div>
+				<p id="botArrow" class="small-1 small-centered columns">▲</p>
+			</div>
+		</div>
+	</body>
+	<footer>
+		<script src="js/vendor/modernizr.js"></script>
+		<script src="js/vendor/jquery.js"></script>
+		<script src="js/foundation/foundation.js"></script>
+		<script src="js/app.js"></script>
+	</footer>
+</html>

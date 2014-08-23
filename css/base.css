@@ -1,0 +1,241 @@
+/* -----------------> RESET <------------------
+   http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+   -------------------------------------------- */
+/* line 19, sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 32, sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 35, sass/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 38, sass/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 41, sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 45, sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 49, sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media screen and (max-width: 767px) {
+  /* ======================
+  	       Mobile
+     ====================== */
+  /* --------------
+  	Typography
+     -------------- */
+  /* --------------
+  	  Layout
+     -------------- */
+  /* --------------
+  	  Components
+     -------------- */
+}
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  /* ======================
+  	       Tablet
+     ====================== */
+  /* --------------
+  	Typography
+     -------------- */
+  /* --------------
+  	  Layout
+     -------------- */
+  /* --------------
+  	  Components
+     -------------- */
+}
+@media screen and (min-width: 1026px) {
+  /* ======================
+  	      Desktop
+     ====================== */
+  /* --------------
+  	Typography
+     -------------- */
+  /* --------------
+  	  Layout
+     -------------- */
+  /* --------------
+  	  Components
+     -------------- */
+}
+/* line 66, sass/base.scss */
+body {
+  font-family: 'Droid Sans', sans-serif;
+  color: #ecf0f1;
+}
+
+/* line 71, sass/base.scss */
+p {
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 1.5625em;
+  max-width: 44em;
+}
+
+/* line 76, sass/base.scss */
+h1 {
+  font-size: 4em;
+  font-weight: 500;
+  line-height: 1.25em;
+}
+
+/* line 80, sass/base.scss */
+h2 {
+  font-size: 2.25em;
+  font-weight: 500;
+  line-height: 1.25em;
+}
+
+/* line 84, sass/base.scss */
+h3 {
+  font-size: 1.125em;
+  font-weight: 700;
+  line-height: 1.25em;
+}
+
+/* line 88, sass/base.scss */
+h4 {
+  font-size: 0.875em;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+/* line 92, sass/base.scss */
+header {
+  text-align: center;
+}
+/* line 95, sass/base.scss */
+header h1 {
+  margin: 0 0 10px 0;
+  color: #ecf0f1;
+}
+/* line 100, sass/base.scss */
+header h3 {
+  font-weight: 500;
+  font-style: italic;
+  color: #95a5a6;
+}
+
+/* line 110, sass/base.scss */
+html {
+  width: 100%;
+  max-height: 800px;
+}
+
+/* line 115, sass/base.scss */
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  background: #34495e;
+}
+
+/* line 121, sass/base.scss */
+header {
+  margin: 20px 0 20px 0;
+}
+
+/* line 126, sass/base.scss */
+.row {
+  margin: 30px 0 0 0;
+}
+
+/* line 130, sass/base.scss */
+.row:last-of-type {
+  margin: 60px 0 0 0;
+}
+
+/* line 137, sass/base.scss */
+#screenBox {
+  width: 400px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+/* line 143, sass/base.scss */
+#screen {
+  font: 2em 'Droid Sans Mono' normal;
+  padding: 13px 0 0 110px;
+}
+
+/* line 148, sass/base.scss */
+.fa {
+  font-size: 2em;
+}
+
+/* line 151, sass/base.scss */
+#speed {
+  margin: 0 0 0 2px;
+}
+
+/* line 157, sass/base.scss */
+.speed-component span {
+  text-align: center;
+}
+
+/* line 161, sass/base.scss */
+.speed-btn {
+  color: #ecf0f1;
+}
+/* line 163, sass/base.scss */
+.speed-btn:hover {
+  color: #7f8c8d;
+}
+/* line 166, sass/base.scss */
+.speed-btn:active {
+  color: #95a5a6;
+}
+
+/* line 171, sass/base.scss */
+.button {
+  background: #2980b9;
+}
+
+/* line 175, sass/base.scss */
+.button-group {
+  margin: 0 auto;
+  color: #ecf0f1;
+}
